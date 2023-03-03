@@ -38,27 +38,27 @@
   background-size: cover;
   }
   #img-1{
-      background-image: url(../imagens/tenis1.jpg);
+      background-image: url(/imagem/tenis1.jpg);
   }
   
   #img-2{
-      background-image: url(../imagens/tenis2.jpg);
+      background-image: url(/imagem/tenis2.jpg);
   }
   
   #img-3{
-      background-image: url(../imagens/tenis3.jpg);
+      background-image: url(/imagem/tenis3.jpg);
   }
   
   #img-4{
-      background-image: url(../imagens/tenis4.jpg);
+      background-image: url(/imagem/tenis4.jpg);
   }
   
   #img-5{
-      background-image: url(../imagens/tenis5.jpg);
+      background-image: url(/imagem/tenis5.jpg);
   }
   
   #img-6{
-      background-image: url(../imagens/tenis6.jpg);
+      background-image: url(/imagem/tenis6.jpg);
   }
   
   h3{
@@ -70,16 +70,33 @@
   margin-bottom: 10px;
   }
   .btn{
-  display:block;/*exibir o conteúdo no formato de bloco*/
-  width: 100%;/*ocupar 100% do espaço disponível no card*/
-  text-align: center;/*alinhar o texto no centro do espaço indicado pelo comando width*/
-  text-transform: uppercase;/*exibe o texto em letra maiuscúlo*/
-  text-decoration: none;/*remove o sublinhado*/
-  background-color: rgb(0, 143, 7);/* altera a cor de fundo do display block*/
-  color: aliceblue;/* muda a cor da fonte do texto*/
-  padding: 15px;/* espaçamento ao redor do display block*/
-  margin-bottom: 10px;/*adiciona uma margem abaixo do botao 10px*/
-  border-radius: 10px;/*arredonda os cantos do botão*/
-  
+    display:block;/*exibir o conteúdo no formato de bloco*/
+    width: 100%;/*ocupar 100% do espaço disponível no card*/
+    text-align: center;/*alinhar o texto no centro do espaço indicado pelo comando width*/
+    text-transform: uppercase;/*exibe o texto em letra maiuscúlo*/
+    text-decoration: none;/*remove o sublinhado*/
+    background-color: rgb(0, 143, 7);/* altera a cor de fundo do display block*/
+    color: aliceblue;/* muda a cor da fonte do texto*/
+    padding: 15px;/* espaçamento ao redor do display block*/
+    margin-bottom: 10px;/*adiciona uma margem abaixo do botao 10px*/
+    border-radius: 10px;/*arredonda os cantos do botão*/
+    
   }
-  
+.btn:hover {/* altera o comportamento do botão quando o cursor do mouse estiver sobre ele*/
+    background-color: black; /*altera a cor de fundo do botão*/
+
+
+ } 
+footer {/* altera as configurações do rodapé da página*/
+    background-color: #253c00; /* altera a cor de fundo do rodapé*/
+    text-align: center;/* centraliza o texto do rodapé*/
+    padding: 80px; /*adiciona um espaçamento ao redor do rodapé*/
+    color: aliceblue;/* altera a cor da fonte*/
+
+}
+
+
+
+   
+
+
